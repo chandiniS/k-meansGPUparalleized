@@ -1,3 +1,3 @@
 # k-meansGPUparalleized
 Implements k-means Clustering with CUDA.
-View Report for detailed report on implementation and comparison with Sequential Implementation.
+View Report for details on implementation and comparison with Sequential Implementation.

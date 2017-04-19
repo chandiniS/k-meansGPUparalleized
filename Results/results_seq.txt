@@ -1,0 +1,132 @@
+Writing coordinates of K=2 cluster centers to file "colors_histogram.txt.cluster_centres"
+Writing membership of N=68040 data objects to file "colors_histogram.txt.membership"
+
+Performing **** Regular Kmeans (sequential version) ****
+Input file:     colors_histogram.txt
+numObjs       = 68040
+numCoords     = 2
+numClusters   = 2
+threshold     = 0.0010
+Loop iterations    = 8
+I/O time           =     0.0650 sec
+Computation timing =     0.0449 sec
+Writing coordinates of K=3 cluster centers to file "colors_histogram.txt.cluster_centres"
+Writing membership of N=68040 data objects to file "colors_histogram.txt.membership"
+
+Performing **** Regular Kmeans (sequential version) ****
+Input file:     colors_histogram.txt
+numObjs       = 68040
+numCoords     = 2
+numClusters   = 3
+threshold     = 0.0010
+Loop iterations    = 20
+I/O time           =     0.0646 sec
+Computation timing =     0.1520 sec
+Writing coordinates of K=4 cluster centers to file "colors_histogram.txt.cluster_centres"
+Writing membership of N=68040 data objects to file "colors_histogram.txt.membership"
+
+Performing **** Regular Kmeans (sequential version) ****
+Input file:     colors_histogram.txt
+numObjs       = 68040
+numCoords     = 2
+numClusters   = 4
+threshold     = 0.0010
+Loop iterations    = 19
+I/O time           =     0.0623 sec
+Computation timing =     0.1847 sec
+Writing coordinates of K=5 cluster centers to file "colors_histogram.txt.cluster_centres"
+Writing membership of N=68040 data objects to file "colors_histogram.txt.membership"
+
+Performing **** Regular Kmeans (sequential version) ****
+Input file:     colors_histogram.txt
+numObjs       = 68040
+numCoords     = 2
+numClusters   = 5
+threshold     = 0.0010
+Loop iterations    = 20
+I/O time           =     0.0598 sec
+Computation timing =     0.2322 sec
+Writing coordinates of K=6 cluster centers to file "colors_histogram.txt.cluster_centres"
+Writing membership of N=68040 data objects to file "colors_histogram.txt.membership"
+
+Performing **** Regular Kmeans (sequential version) ****
+Input file:     colors_histogram.txt
+numObjs       = 68040
+numCoords     = 2
+numClusters   = 6
+threshold     = 0.0010
+Loop iterations    = 28
+I/O time           =     0.0596 sec
+Computation timing =     0.3749 sec
+Writing coordinates of K=7 cluster centers to file "colors_histogram.txt.cluster_centres"
+Writing membership of N=68040 data objects to file "colors_histogram.txt.membership"
+
+Performing **** Regular Kmeans (sequential version) ****
+Input file:     colors_histogram.txt
+numObjs       = 68040
+numCoords     = 2
+numClusters   = 7
+threshold     = 0.0010
+Loop iterations    = 39
+I/O time           =     0.0614 sec
+Computation timing =     0.6254 sec
+Writing coordinates of K=8 cluster centers to file "colors_histogram.txt.cluster_centres"
+Writing membership of N=68040 data objects to file "colors_histogram.txt.membership"
+
+Performing **** Regular Kmeans (sequential version) ****
+Input file:     colors_histogram.txt
+numObjs       = 68040
+numCoords     = 2
+numClusters   = 8
+threshold     = 0.0010
+Loop iterations    = 33
+I/O time           =     0.0569 sec
+Computation timing =     0.5822 sec
+Writing coordinates of K=9 cluster centers to file "colors_histogram.txt.cluster_centres"
+Writing membership of N=68040 data objects to file "colors_histogram.txt.membership"
+
+Performing **** Regular Kmeans (sequential version) ****
+Input file:     colors_histogram.txt
+numObjs       = 68040
+numCoords     = 2
+numClusters   = 9
+threshold     = 0.0010
+Loop iterations    = 88
+I/O time           =     0.0580 sec
+Computation timing =     1.7171 sec
+Writing coordinates of K=10 cluster centers to file "colors_histogram.txt.cluster_centres"
+Writing membership of N=68040 data objects to file "colors_histogram.txt.membership"
+
+Performing **** Regular Kmeans (sequential version) ****
+Input file:     colors_histogram.txt
+numObjs       = 68040
+numCoords     = 2
+numClusters   = 10
+threshold     = 0.0010
+Loop iterations    = 45
+I/O time           =     0.0942 sec
+Computation timing =     0.9659 sec
+Writing coordinates of K=11 cluster centers to file "colors_histogram.txt.cluster_centres"
+Writing membership of N=68040 data objects to file "colors_histogram.txt.membership"
+
+Performing **** Regular Kmeans (sequential version) ****
+Input file:     colors_histogram.txt
+numObjs       = 68040
+numCoords     = 2
+numClusters   = 11
+threshold     = 0.0010
+Loop iterations    = 70
+I/O time           =     0.1774 sec
+Computation timing =     1.6203 sec
+Writing coordinates of K=12 cluster centers to file "colors_histogram.txt.cluster_centres"
+Writing membership of N=68040 data objects to file "colors_histogram.txt.membership"
+
+Performing **** Regular Kmeans (sequential version) ****
+Input file:     colors_histogram.txt
+numObjs       = 68040
+numCoords     = 2
+numClusters   = 12
+threshold     = 0.0010
+Loop iterations    = 76
+I/O time           =     0.0613 sec
+Computation timing =     1.9340 sec

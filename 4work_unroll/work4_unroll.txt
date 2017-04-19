@@ -1,0 +1,242 @@
+======== NVPROF is profiling kmeans-clustering...
+======== Command: kmeans-clustering colors_histogram.txt 1
+
+ Setting up the problem ........0.000035 s
+Reached here
+
+Input size for points = 68040, Size for clusters = 1
+Allocating host variables ................0.000016 s
+
+ Allocating device variables........0.370798 s
+
+Copying data from host to device
+0.000357 s
+Launching kernel ...........
+Elapsed time for kernel execution = 0.000878 s
+======== Profiling result:
+ Time(%)      Time   Calls       Avg       Min       Max  Name
+   49.51   96.73us       6   16.12us     896ns   46.59us  [CUDA memcpy HtoD]
+   29.46   57.57us       2   28.79us   28.48us   29.09us  findCluster(float*, float*, float*, float*, int*, int, int, int)
+   10.06   19.65us      12    1.64us    1.44us    3.26us  [CUDA memset]
+    6.14   12.00us       2    6.00us    5.73us    6.27us  reduceResult(float*, float*, int*, float*, float*, int*, int)
+    4.83    9.44us       6    1.57us    1.47us    1.76us  [CUDA memcpy DtoH]
+======== NVPROF is profiling kmeans-clustering...
+======== Command: kmeans-clustering colors_histogram.txt 2
+
+ Setting up the problem ........0.000025 s
+Reached here
+
+Input size for points = 68040, Size for clusters = 2
+Allocating host variables ................0.000017 s
+
+ Allocating device variables........0.365599 s
+
+Copying data from host to device
+0.000356 s
+Launching kernel ...........
+Elapsed time for kernel execution = 0.001998 s
+======== Profiling result:
+ Time(%)      Time   Calls       Avg       Min       Max  Name
+   55.18  270.14us       8   33.77us   32.11us   35.07us  findCluster(float*, float*, float*, float*, int*, int, int, int)
+   20.39   99.81us      10    9.98us     832ns   46.43us  [CUDA memcpy HtoD]
+    9.48   46.41us       8    5.80us    5.73us    6.27us  reduceResult(float*, float*, int*, float*, float*, int*, int)
+    7.76   37.98us      24    1.58us    1.44us    3.23us  [CUDA memset]
+    7.19   35.20us      24    1.47us    1.41us    1.73us  [CUDA memcpy DtoH]
+======== NVPROF is profiling kmeans-clustering...
+======== Command: kmeans-clustering colors_histogram.txt 3
+
+ Setting up the problem ........0.000025 s
+Reached here
+
+Input size for points = 68040, Size for clusters = 3
+Allocating host variables ................0.000014 s
+
+ Allocating device variables........0.366202 s
+
+Copying data from host to device
+0.000528 s
+Launching kernel ...........
+Elapsed time for kernel execution = 0.009081 s
+======== Profiling result:
+ Time(%)      Time   Calls       Avg       Min       Max  Name
+   70.56    1.74ms      45   38.68us   37.35us   40.85us  findCluster(float*, float*, float*, float*, int*, int, int, int)
+   10.78  265.90us      45    5.91us    5.73us    6.28us  reduceResult(float*, float*, int*, float*, float*, int*, int)
+    7.94  195.96us     135    1.45us    1.41us    1.70us  [CUDA memcpy DtoH]
+    5.91  145.75us      90    1.62us    1.41us    8.93us  [CUDA memset]
+    4.81  118.56us      32    3.70us     832ns   46.30us  [CUDA memcpy HtoD]
+======== NVPROF is profiling kmeans-clustering...
+======== Command: kmeans-clustering colors_histogram.txt 4
+
+ Setting up the problem ........0.000025 s
+Reached here
+
+Input size for points = 68040, Size for clusters = 4
+Allocating host variables ................0.000016 s
+
+ Allocating device variables........0.371420 s
+
+Copying data from host to device
+0.000360 s
+Launching kernel ...........
+Elapsed time for kernel execution = 0.006204 s
+======== Profiling result:
+ Time(%)      Time   Calls       Avg       Min       Max  Name
+   72.26    1.34ms      32   41.83us   40.16us   44.11us  findCluster(float*, float*, float*, float*, int*, int, int, int)
+   10.16  188.17us      32    5.88us    5.73us    6.27us  reduceResult(float*, float*, int*, float*, float*, int*, int)
+    7.73  143.26us      96    1.49us    1.47us    1.76us  [CUDA memcpy DtoH]
+    5.83  107.97us      18    6.00us     864ns   46.98us  [CUDA memcpy HtoD]
+    4.02   74.53us      48    1.55us    1.44us    3.26us  [CUDA memset]
+======== NVPROF is profiling kmeans-clustering...
+======== Command: kmeans-clustering colors_histogram.txt 5
+
+ Setting up the problem ........0.000033 s
+Reached here
+
+Input size for points = 68040, Size for clusters = 5
+Allocating host variables ................0.000018 s
+
+ Allocating device variables........0.367014 s
+
+Copying data from host to device
+0.000371 s
+Launching kernel ...........
+Elapsed time for kernel execution = 0.007676 s
+======== Profiling result:
+ Time(%)      Time   Calls       Avg       Min       Max  Name
+   75.92    1.86ms      40   46.61us   44.81us   49.37us  findCluster(float*, float*, float*, float*, int*, int, int, int)
+    9.60  235.76us      40    5.89us    5.73us    6.28us  reduceResult(float*, float*, int*, float*, float*, int*, int)
+    7.08  173.79us     120    1.45us    1.41us    1.70us  [CUDA memcpy DtoH]
+    4.37  107.36us      18    5.96us     832ns   46.62us  [CUDA memcpy HtoD]
+    3.03   74.53us      48    1.55us    1.44us    3.23us  [CUDA memset]
+======== NVPROF is profiling kmeans-clustering...
+======== Command: kmeans-clustering colors_histogram.txt 6
+
+ Setting up the problem ........0.000031 s
+Reached here
+
+Input size for points = 68040, Size for clusters = 6
+Allocating host variables ................0.000017 s
+
+ Allocating device variables........0.367333 s
+
+Copying data from host to device
+0.000358 s
+Launching kernel ...........
+Elapsed time for kernel execution = 0.009033 s
+======== Profiling result:
+ Time(%)      Time   Calls       Avg       Min       Max  Name
+   77.99    2.38ms      48   49.59us   47.65us   52.45us  findCluster(float*, float*, float*, float*, int*, int, int, int)
+    9.29  283.49us      48    5.91us    5.73us    6.29us  reduceResult(float*, float*, int*, float*, float*, int*, int)
+    6.78  207.07us     144    1.44us    1.41us    1.70us  [CUDA memcpy DtoH]
+    3.50  106.75us      18    5.93us     832ns   46.43us  [CUDA memcpy HtoD]
+    2.43   74.30us      48    1.55us    1.41us    3.23us  [CUDA memset]
+======== NVPROF is profiling kmeans-clustering...
+======== Command: kmeans-clustering colors_histogram.txt 7
+
+ Setting up the problem ........0.000012 s
+Reached here
+
+Input size for points = 68040, Size for clusters = 7
+Allocating host variables ................0.000018 s
+
+ Allocating device variables........0.370513 s
+
+Copying data from host to device
+0.000357 s
+Launching kernel ...........
+Elapsed time for kernel execution = 0.015890 s
+======== Profiling result:
+ Time(%)      Time   Calls       Avg       Min       Max  Name
+   80.85    4.65ms      84   55.33us   52.48us   57.62us  findCluster(float*, float*, float*, float*, int*, int, int, int)
+    8.66  497.61us      84    5.92us    5.72us    6.28us  reduceResult(float*, float*, int*, float*, float*, int*, int)
+    6.55  376.72us     252    1.49us    1.47us    1.76us  [CUDA memcpy DtoH]
+    2.01  115.71us      26    4.45us     864ns   46.75us  [CUDA memcpy HtoD]
+    1.93  110.88us      72    1.54us    1.31us    3.26us  [CUDA memset]
+======== NVPROF is profiling kmeans-clustering...
+======== Command: kmeans-clustering colors_histogram.txt 8
+
+ Setting up the problem ........0.000025 s
+Reached here
+
+Input size for points = 68040, Size for clusters = 8
+Allocating host variables ................0.000016 s
+
+ Allocating device variables........0.368063 s
+
+Copying data from host to device
+0.000358 s
+Launching kernel ...........
+Elapsed time for kernel execution = 0.018190 s
+======== Profiling result:
+ Time(%)      Time   Calls       Avg       Min       Max  Name
+   81.92    5.56ms      96   57.88us   55.38us   60.65us  findCluster(float*, float*, float*, float*, int*, int, int, int)
+    8.38  568.28us      96    5.92us    5.73us    6.27us  reduceResult(float*, float*, int*, float*, float*, int*, int)
+    6.36  431.63us     288    1.50us    1.47us    1.76us  [CUDA memcpy DtoH]
+    1.70  115.10us      26    4.43us     864ns   46.46us  [CUDA memcpy HtoD]
+    1.64  111.07us      72    1.54us    1.25us    3.26us  [CUDA memset]
+======== NVPROF is profiling kmeans-clustering...
+======== Command: kmeans-clustering colors_histogram.txt 9
+
+ Setting up the problem ........0.000025 s
+Reached here
+
+Input size for points = 68040, Size for clusters = 9
+Allocating host variables ................0.000018 s
+
+ Allocating device variables........0.366312 s
+
+Copying data from host to device
+0.000355 s
+Launching kernel ...........
+Elapsed time for kernel execution = 0.020724 s
+======== Profiling result:
+ Time(%)      Time   Calls       Avg       Min       Max  Name
+   83.54    6.77ms     108   62.70us   60.09us   66.01us  findCluster(float*, float*, float*, float*, int*, int, int, int)
+    7.90  640.15us     108    5.93us    5.72us    6.28us  reduceResult(float*, float*, int*, float*, float*, int*, int)
+    5.78  468.69us     324    1.45us    1.41us    1.73us  [CUDA memcpy DtoH]
+    1.41  114.30us      26    4.40us     832ns   46.69us  [CUDA memcpy HtoD]
+    1.37  110.72us      72    1.54us    1.38us    3.20us  [CUDA memset]
+======== NVPROF is profiling kmeans-clustering...
+======== Command: kmeans-clustering colors_histogram.txt 10
+
+ Setting up the problem ........0.000030 s
+Reached here
+
+Input size for points = 68040, Size for clusters = 10
+Allocating host variables ................0.000014 s
+
+ Allocating device variables........0.363656 s
+
+Copying data from host to device
+0.000360 s
+Launching kernel ...........
+Elapsed time for kernel execution = 0.023327 s
+======== Profiling result:
+ Time(%)      Time   Calls       Avg       Min       Max  Name
+   84.25    7.88ms     120   65.66us   62.82us   69.35us  findCluster(float*, float*, float*, float*, int*, int, int, int)
+    7.61  711.75us     120    5.93us    5.72us    6.29us  reduceResult(float*, float*, int*, float*, float*, int*, int)
+    5.72  535.40us     360    1.49us    1.47us    1.76us  [CUDA memcpy DtoH]
+    1.23  114.78us      26    4.41us     864ns   46.46us  [CUDA memcpy HtoD]
+    1.18  110.78us      72    1.54us    1.34us    3.26us  [CUDA memset]
+======== NVPROF is profiling kmeans-clustering...
+======== Command: kmeans-clustering colors_histogram.txt 11
+
+ Setting up the problem ........0.000025 s
+Reached here
+
+Input size for points = 68040, Size for clusters = 11
+Allocating host variables ................0.000019 s
+
+ Allocating device variables........0.366604 s
+
+Copying data from host to device
+0.000362 s
+Launching kernel ...........
+Elapsed time for kernel execution = 0.026203 s
+======== Profiling result:
+ Time(%)      Time   Calls       Avg       Min       Max  Name
+   85.38    9.34ms     132   70.76us   67.63us   74.28us  findCluster(float*, float*, float*, float*, int*, int, int, int)
+    7.16  783.25us     132    5.93us    5.73us    6.29us  reduceResult(float*, float*, int*, float*, float*, int*, int)
+    5.39  590.09us     396    1.49us    1.47us    1.73us  [CUDA memcpy DtoH]
+    1.06  115.48us      26    4.44us     864ns   46.62us  [CUDA memcpy HtoD]
+    1.01  111.04us      72    1.54us    1.44us    3.26us  [CUDA memset]
